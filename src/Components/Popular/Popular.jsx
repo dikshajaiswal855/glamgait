@@ -1,6 +1,6 @@
 import React from "react";
 // import "./Popular.css";
-import data_product from "../assets/data";
+import {data_product , data_product_men , data_product_women , data_product_kids} from "../assets/data";
 import Item from "../Item/Item";
 
 const Popular = () => {
@@ -10,7 +10,7 @@ const Popular = () => {
       <h1 className="text-white font-bold text-3xl md:text-4xl text-center">TRENDING FOOTWEAR</h1>
       <div className="w-36 h-1 border-b-4 border-teal-300 mt-2 mb-7 md:mt-4 "></div>
       </div>
-      <div className="popular_item w-full flex flex-wrap justify-evenly">
+      <div className="popular_item w-full flex flex-wrap justify-evenly  text-white">
         {data_product.map((item, i) => (
           <Item
             key={i}
