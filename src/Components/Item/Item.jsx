@@ -1,6 +1,7 @@
 import React from "react";
 // import "./Item.css";
-import "../assets/data.js"
+// import "../assets/data.js"
+import "../assets/dataa.js"
 
 const Item = (props) => {
   return (

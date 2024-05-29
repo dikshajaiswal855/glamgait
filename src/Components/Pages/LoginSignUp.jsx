@@ -1,9 +1,10 @@
 import React from "react";
 import "../PagesCSS/LoginSignUp.css";
-
+import bgimg from "../assets/Hero_shoe2.png"
 const LoginSignUp = () => {
   return (
-    <div className="login_page_body">
+    <div className="login_page_body text-white h-[100vh] flex justify-center bg-cover " style={{"backgroundImage":{bgimg}}}>
+      {/* <img className="" src={bgimg} alt="" /> */}
       <div className="login_page">
         <div className="status_buttons">
           <button className="login_button">LOGIN</button>

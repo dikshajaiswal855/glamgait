@@ -261,7 +261,7 @@ let dataa_product = [
   },
   {
     id: 28,
-    category:"kids",
+    category:"kid",
     name: "12G-807-C-LGRY-RED-1",
     image: kd1,
     new_price: 5000.0,
@@ -269,7 +269,7 @@ let dataa_product = [
   },
   {
     id: 29,
-    category:"kids",
+    category:"kid",
     name: "CHARM-12G-807-CH.GRY-BLK_2",
     image: kd2,
     new_price: 8500.0,
@@ -277,7 +277,7 @@ let dataa_product = [
   },
   {
     id: 30,
-    category:"kids",
+    category:"kid",
     name: "CHARM-12G-807-L.GRY-RED_2",
     image: kd4,
     new_price: 6000.0,
@@ -285,7 +285,7 @@ let dataa_product = [
   },
   {
     id: 31,
-    category:"kids",
+    category:"kid",
     name: "CHARM-12G-807-L.GRY-RED_2",
     image: kd3,
     new_price: 5000.0,
@@ -293,7 +293,7 @@ let dataa_product = [
   },
   {
     id: 32,
-    category:"kids",
+    category:"kid",
     name: "GIPSY-JR-CG-573-GRY-R.BLU_2",
     image: kd4,
     new_price: 8500.0,
@@ -301,7 +301,7 @@ let dataa_product = [
   },
   {
     id: 33,
-    category:"kids",
+    category:"kid",
     name: "GIPSY-JR-CG-573-GRY-R.BLU_2",
     image: kd5,
     new_price: 6000.0,
@@ -309,15 +309,15 @@ let dataa_product = [
   },
   {
     id: 34,
-    category:"kids",
-    name: "KidsCollection_CategoryImage_1296x",
-    image: kd6,
+    category:"kid",
+    name: "T_J-06-MSTD-M-BLU_2.jpg",
+    image: kd12,
     new_price: 5000.0,
     old_price: 7000.0,
   },
   {
     id: 35,
-    category:"kids",
+    category:"kid",
     name: "NT-565V_NT-565V_BLK-RANI_2",
     image: kd8,
     new_price: 8500.0,
@@ -325,7 +325,7 @@ let dataa_product = [
   },
   {
     id: 36,
-    category:"kids",
+    category:"kid",
     name: "NT-565V_NT-565V_BLK-RANI_2",
     image: kd7,
     new_price: 6000.0,
@@ -333,7 +333,7 @@ let dataa_product = [
   },
   {
     id: 37,
-    category:"kids",
+    category:"kid",
     name: "PENNYCH_22C-152K_NAVY-F.GRN_2",
     image: kd8,
     new_price: 5000.0,
@@ -341,7 +341,7 @@ let dataa_product = [
   },
   {
     id: 38,
-    category:"kids",
+    category:"kid",
     name: "PENNYCH_22C-152K_NAVY-F.GRN_2",
     image: kd9,
     new_price: 8500.0,
@@ -349,7 +349,7 @@ let dataa_product = [
   },
   {
     id: 39,
-    category:"kids",
+    category:"kid",
     name: "PT-103_PT-103_D.GRY-WHT_2",
     image: kd10,
     new_price: 6000.0,
@@ -357,7 +357,7 @@ let dataa_product = [
   },
   {
     id: 40,
-    category:"kids",
+    category:"kid",
     name: "SRM-03_SRM-03_M.BLU-AQUAGRN_2",
     image: kd11,
     new_price: 5000.0,
@@ -365,7 +365,7 @@ let dataa_product = [
   },
   {
     id: 41,
-    category:"kids",
+    category:"kid",
     name: "SRM-05V_SRM-05V_D.GRY-ORG_2",
     image: kd12,
     new_price: 8500.0,
@@ -373,7 +373,7 @@ let dataa_product = [
   },
   {
     id: 42,
-    category:"kids",
+    category:"kid",
     name: "SRM-05V_SRM-05V_L.GRY-BT.GRN_2",
     image: kd13,
     new_price: 6000.0,
@@ -381,7 +381,7 @@ let dataa_product = [
   },
   {
     id: 43,
-    category:"kids",
+    category:"kid",
     name: "T_J-06-MSTD-M-BLU_2",
     image: kd14,
     new_price: 5000.0,
@@ -389,5 +389,5 @@ let dataa_product = [
   }
   ];
 
-export default {dataa_product};
+export default dataa_product;
 
