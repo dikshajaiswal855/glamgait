@@ -154,7 +154,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   const [menu, setMenu] = useState("shop");
   return (
-    <div className="nav_main flex justify-between px-6 font-bold  py-1">
+    <div className="nav_main flex justify-between px-6 font-bold   py-4">
       <div className="nav_logo_name w-10">
         <img src={logo} alt="" />
       </div>
