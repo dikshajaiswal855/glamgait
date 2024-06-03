@@ -15,9 +15,9 @@ import kidsm from "./Components/assets/kids/KidsCollection_CategoryImage_1296x.j
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/glamgait">
+      <BrowserRouter >
         <Navbar />
-        <Routes>
+        <Routes basename="/glamgait">
           <Route path="/" element={<Shop />} />
           <Route path="/mens" element={<ShopCategory banner={menmain} category="men" />} />
           <Route path="/womens" element={<ShopCategory banner={womenmain} category="women" />} />
