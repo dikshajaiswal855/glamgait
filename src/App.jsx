@@ -1,5 +1,4 @@
 import Navbar from "./Components/Navbar/Navbar";
-import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Shop from "./Components/Pages/Shop";
 import ShopCategory from "./Components/Pages/ShopCategory";
@@ -29,7 +28,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginSignUp />} />
         </Routes>
-        
+
         <Footer />
       </BrowserRouter> 
     </div>

@@ -5,7 +5,7 @@ import Item from "../Item/Item";
 
 const Popular = () => {
   return (
-    <div className="popular bg-black h-auto w-100 flex flex-wrap flex-col items-centre text-centre p-10">
+    <div className="popular bg-black h-auto w-100 flex flex-wrap flex-col items-centre text-centre ">
       <div className="w-full h-auto flex flex-wrap flex-col items-center">
       <h1 className="text-white font-bold text-3xl md:text-4xl text-center">TRENDING FOOTWEAR</h1>
       <div className="w-36 h-1 border-b-4 border-teal-300 mt-2 mb-7 md:mt-4 "></div>
@@ -22,9 +22,9 @@ const Popular = () => {
           />
         ))}
       </div>
-      <div className="popular_button text-center">
+      {/* <div className="popular_button text-center">
         <button className="text-black mt-6 bg-teal-200 py-3 px-4 text-2xl font-bold md:text-3xl rounded-md">Explore More &#8594; </button>
-      </div>
+      </div> */}
     </div>
   );
 };

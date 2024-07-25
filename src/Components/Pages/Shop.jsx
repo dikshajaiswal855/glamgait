@@ -5,10 +5,10 @@ import Offers from "../Offers/Offers"
 
 const Shop = () => {
   return (
-    <div>
+    <div className="bg-black">
       <Hero />
       <Popular />
-      <Offers/>
+      {/* <Offers/> */}
     </div>
   );
 };

@@ -16,6 +16,9 @@ const ShopCategory = (props) => {
         <div className=" items-center w-full h-auto flex flex-wrap flex-col">
         <div className="w-36 h-1 border-b-4 border-teal-300 mt-2 mb-7 md:mt-4 "></div>
         </div>
+        <div className="shop-category_">
+
+        </div>
         <div className="shop_category_popular_item px-4 w-full flex flex-wrap justify-evenly text-black ">
           
             {/* {dataa_product.map((item,i) => {
