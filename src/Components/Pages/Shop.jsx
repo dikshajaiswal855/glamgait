@@ -5,7 +5,7 @@ import Offers from "../Offers/Offers"
 
 const Shop = () => {
   return (
-    <div className="bg-black">
+    <div className="">
       <Hero />
       <Popular />
       {/* <Offers/> */}

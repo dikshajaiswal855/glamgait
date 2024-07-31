@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import Item from "../Item/Item.jsx";
+import dropdownicon from "../assets/down-arrow.png";
 
 import { ShopContext } from "../../Context/ShopContext.jsx";
 
@@ -11,14 +12,22 @@ const ShopCategory = (props) => {
       <div className="shop_category_hero ">
         <div className="flex items-center justify-center">
           <img src={props.banner} alt="" />
+          
         </div>
+
         <h1 className="shop_category_main_heading pt-10 text-black font-bold text-3xl md:text-4xl text-center">Popular in {props.category}</h1>
         <div className=" items-center w-full h-auto flex flex-wrap flex-col">
         <div className="w-36 h-1 border-b-4 border-teal-300 mt-2 mb-7 md:mt-4 "></div>
         </div>
-        <div className="shop-category_">
-
-        </div>
+        <div className="shopCategory-indexSort flex pr-5 py-2 justify-between ">
+            <p className=" px-5 py-2.5">
+              <span className="font-semibold">Showing 1-12</span> out of 36 products
+            </p>
+            {/* <div className="shopCategory-Sort px-5 py-2.5 rounded-full border border-gray-500"> */}
+            <div className="shopCategory-Sort flex px-5 py-2.5 rounded-full border border-gray-500">
+              Sort by<img className="w-5" src={dropdownicon} alt=""/>
+            </div>
+          </div>
         <div className="shop_category_popular_item px-4 w-full flex flex-wrap justify-evenly text-black ">
           
             {/* {dataa_product.map((item,i) => {
