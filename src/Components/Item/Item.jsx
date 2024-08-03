@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom';
 const Item = (props) => {
   return (
     <div className="item w-46 flex flex-col items-center mb-12 hover:border-2 border-teal-300 duration-300 ease-in-out ">
-      <Link to={`/product/${props.id}`} ><img className="w-[19.4rem] h-full" src={props.image} alt="image" /></Link>
+      <Link to={`/product/${props.id}`} ><img onClick={window.scrollTo(0,0)} className="w-[19.4rem] h-full" src={props.image} alt="image" /></Link>
       <p className="text-1xl font-bold mt-2">{props.name}</p>
       <div className="item_prices flex flex-col text-center mt-1">
         <div className="item_prices_new text-1xl font-bold mt-1 ">₹{props.new_price}</div>

@@ -3,9 +3,9 @@ import "../PagesCSS/LoginSignUp.css";
 import bgimg from "../assets/nnw.jpg";
 const LoginSignUp = () => {
   return (
-    // <div className="login_page_body text-white h-[100vh] flex justify-center bg-cover " style={{"backgroundImage":{bgimg}}}>
+    
     <div className="login_page_body text-white h-[100vh] flex justify-center bg-cover  "  style={{ backgroundImage: `url(${bgimg})` }}>
-      {/* <img className="" src={bgimg} alt="" /> */}
+      
       <div className="login_page">
         <div className="status_buttons">
           <button className="login_button">LOGIN</button>

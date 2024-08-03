@@ -8,7 +8,7 @@
   scale: 1.2;
   margin-top: -5vh;
   border: 1px solid white;
-  box-shadow: 1px 1px 5px -1px black;
+  box-shadow: 1px 1px 5px -1px rgb(40, 4, 4);
   transition: all ease-in 0.2ms;
   padding: 5vh;
 }
