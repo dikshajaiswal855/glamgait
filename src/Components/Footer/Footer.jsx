@@ -18,44 +18,41 @@ const BannerImg = {
   width: "100%",
 };
 
-const FooterLinks = [
-  {
-    title: "Home",
-    link: "/#",
-  },
-  {
-    title: "About",
-    link: "/#about",
-  },
-  {
-    title: "Contact",
-    link: "/#contact",
-  },
-  {
-    title: "Blog",
-    link: "/#blog",
-  },
-];
+// const FooterLinks = [
+//   {
+//     title: "Home",
+//     link: "/",
+//   },
+//   {
+//     title: "Men",
+//     link: "/mens",
+//   },
+//   {
+//     title: "Women",
+//     link: "/womens",
+//   },
+//   {
+//     title: "Kids",
+//     link: "/kids",
+//   },
+// ];
 
 const Footer = () => {
   return (
-    <div style={BannerImg} className="text-white">
-      <div className="container">
-        <div data-aos="zoom-in" className="grid md:grid-cols-3 pb-44 pt-5">
+    <div style={BannerImg} className="text-white ">
+      <div className="container ">
+        <div data-aos="zoom-in" className="flex flex-col justify-center items-center text-center pb-44 pt-5">
           {/* company details */}
-          <div className="py-8 px-4">
-            <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
+          <div className="py-8 px-4 flex flex-row items-center ">
+            <h1 className=" md:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
               glamgait
             </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
-            </p>
+            
           </div>
 
-          {/* Footer Links */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
+          {/* Footer Links
+          <div className="grid grid-cols-2  col-span-2 md:pl-10">
             <div>
               <div className="py-8 px-4">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
@@ -75,14 +72,14 @@ const Footer = () => {
             </div>
             <div>
               <div className="py-8 px-4">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
+                <h1 className="sm:text-xl text-xl font-bold  text-centre mb-3">
                   Links
                 </h1>
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
                     <li
                       className="cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
-                      key={link.title}
+                      key={link.link}
                     >
                       <span>{link.title}</span>
                     </li>
@@ -91,17 +88,18 @@ const Footer = () => {
               </div>
             </div>
 
+          </div> */}
             {/* social links */}
 
-            <div>
-              <div className="flex items-center gap-3 mt-6">
+            <div className="px-10 "> 
+              <div className="flex items-center gap-3 mt-6 ">
                 <a href="#">
                   <FaInstagram className="text-3xl" />
                 </a>
                 <a href="#">
                   <FaFacebook className="text-3xl" />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/diksha-jaiswal-b9374a234">
                   <FaLinkedin className="text-3xl" />
                 </a>
               </div>
@@ -116,7 +114,6 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </div>

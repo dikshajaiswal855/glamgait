@@ -1,6 +1,6 @@
 import React from "react";
 // import hero_img from "../assets/Hero_shoe2.png";
-import h_img from "../assets/newglam.jpeg";
+import h_img from "../assets/newglam.jpg";
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
         <button className="mt-6 bg-teal-200 py-3 pr-1 text-3xl font-bold md:text-4xl rounded-md"to=".popular" >Explore More &#8594; </button>
       </div> */}
       <div className="hero_right grow-0">
-        <img src={h_img} alt="hero_img_shoe" className="hero_shoe_img overflow-hidden md:h-full md:max-w-100" />
+        <img src={h_img} alt="hero_img_shoe" className="hero_shoe_img overflow-hidden md:max-w-100" />
       </div>
     </div>
   );

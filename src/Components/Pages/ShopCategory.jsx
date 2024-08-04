@@ -19,34 +19,17 @@ const ShopCategory = (props) => {
         <div className=" items-center w-full h-auto flex flex-wrap flex-col">
         <div className="w-36 h-1 border-b-4 border-teal-300 mt-2 mb-7 md:mt-4 "></div>
         </div>
-        <div className="shopCategory-indexSort flex pr-5 py-2 justify-between ">
+        <div className=" px-16 shopCategory-indexSort flex pr-5 py-2 justify-between ">
             <p className=" px-5 py-2.5">
               <span className="font-semibold">Showing 1-12</span> out of 36 products
             </p>
             {/* <div className="shopCategory-Sort px-5 py-2.5 rounded-full border border-gray-500"> */}
-            <div className="shopCategory-Sort flex px-5 py-2.5 rounded-full border border-gray-500">
+            <div className="shopCategory-Sort flex md:mr-14 px-5 py-2.5 rounded-full border border-gray-500">
               Sort by<img className="w-5" src={dropdownicon} alt=""/>
             </div>
           </div>
-        <div className="shop_category_popular_item px-4 w-full flex flex-wrap justify-evenly text-black ">
-          
-            {/* {dataa_product.map((item,i) => {
-              if(props.category===item.category){
+        <div className="shop_category_popular_item px-2 md:px-16 w-full flex flex-wrap justify-evenly text-black ">
 
-                return <Item 
-                key={i}
-                id={item.id}
-                name ={item.name}
-                image={item.image}
-                old_price={item.old_price}
-                new_price={item.new_price}
-                />
-              }
-              else{
-                  return null;
-                }
-              })} */}
-              
 {dataa_product && Array.isArray(dataa_product) ? (
   dataa_product.map((item, i) => {
     if (props.category === item.category) {
